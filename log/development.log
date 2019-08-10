@@ -432,3 +432,12 @@ Processing by SongsController#show as HTML
 Completed 200 OK in 9ms (Views: 7.1ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/songs" for 98.211.25.80 at 2019-08-10 12:55:02 +0000
+Cannot render console from 98.211.25.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SongsController#index as HTML
+  Rendering songs/index.html.erb within layouts/application
+  [1m[36mSong Load (0.2ms)[0m  [1m[34mSELECT "songs".* FROM "songs"[0m
+  Rendered songs/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.2ms)
+
+
