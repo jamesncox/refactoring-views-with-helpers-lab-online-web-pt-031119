@@ -441,3 +441,11 @@ Processing by SongsController#index as HTML
 Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/songs/new" for 98.211.25.80 at 2019-08-10 12:55:07 +0000
+Cannot render console from 98.211.25.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SongsController#new as HTML
+  Rendering songs/new.html.erb within layouts/application
+  Rendered songs/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
