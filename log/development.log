@@ -449,3 +449,14 @@ Processing by SongsController#new as HTML
 Completed 200 OK in 10ms (Views: 8.5ms | ActiveRecord: 0.0ms)
 
 
+Started POST "/songs" for 98.211.25.80 at 2019-08-10 12:55:16 +0000
+Cannot render console from 98.211.25.80! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by SongsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BbCuoVf8BYmX8BWUyB04Nt1t90L6+r/A/UCytFQFwjBUSQQjEMo3Un6mMZQaUYEfQ2Q0YJbLCODBi4eyqixQ9Q==", "song"=>{"title"=>"Bleed It Out", "artist_name"=>"Linkin Park"}, "commit"=>"Create Song"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "songs" ("title", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["title", "Bleed It Out"], ["created_at", "2019-08-10 12:55:16.122341"], ["updated_at", "2019-08-10 12:55:16.122341"]]
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://142.93.113.210:53683/songs/4
+Completed 302 Found in 9ms (ActiveRecord: 4.6ms)
+
+
